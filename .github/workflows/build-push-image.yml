@@ -55,3 +55,5 @@ jobs:
             ovnrain/aria-ng-docker:latest
             ovnrain/aria-ng-docker:${{ steps.package-version.outputs.current-version }}
           platforms: linux/amd64,linux/arm64,linux/arm/v7
+          build-args: |
+            ASSETS_DIR=dist
