@@ -18,9 +18,9 @@ jobs:
         uses: martinbeentjes/npm-get-version-action@v1.3.1
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v3
         with:
-          version: 8
+          version: 9
 
       - name: Use node lts
         uses: actions/setup-node@v4
