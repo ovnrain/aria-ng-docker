@@ -1,4 +1,4 @@
-FROM kissgyorgy/redbean-onbuild as builder
+FROM kissgyorgy/redbean-onbuild AS builder
 
 FROM scratch
 
