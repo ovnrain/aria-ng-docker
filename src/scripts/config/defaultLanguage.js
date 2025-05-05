@@ -343,10 +343,15 @@
                 'checksum.failed': 'Checksum validation failed.'
             },
             'languages': {
+                'Czech': 'Czech',
                 'English': 'English',
+                'Spanish': 'Spanish',
+                'French': 'French',
+                'Italian': 'Italian',
+                'Polish': 'Polish',
+                'Russian': 'Russian',
                 'Simplified Chinese': 'Simplified Chinese',
-                'Traditional Chinese': 'Traditional Chinese',
-                'Italian': 'Italian'
+                'Traditional Chinese': 'Traditional Chinese'
             },
             'format': {
                 'longdate': 'MM/DD/YYYY HH:mm:ss',
