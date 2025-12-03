@@ -3,7 +3,7 @@ name: build and push docker image
 on:
   push:
     branches:
-      - 'publish'
+      - "publish"
   workflow_dispatch:
 
 jobs:
@@ -25,8 +25,8 @@ jobs:
       - name: Use node lts
         uses: actions/setup-node@v4
         with:
-          node-version-file: '.nvmrc'
-          cache: 'pnpm'
+          node-version-file: ".nvmrc"
+          cache: "pnpm"
 
       - name: Install dependencies
         run: pnpm install
